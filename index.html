@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Каталог Black Dragon</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+:root{--bg:#f3f1ec;--panel:#fff;--fg:#1b1a17;--muted:#77726a;--line:#e2ddd3;--gold:#a87b1f;--chip:#ece7dc}
+@media (prefers-color-scheme:dark){:root{--bg:#0f0e0c;--panel:#1a1815;--fg:#efe9dd;--muted:#948c7e;--line:#2c2924;--gold:#d8a640;--chip:#24211c;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:14px max(14px,env(safe-area-inset-right)) 40px max(14px,env(safe-area-inset-left))}
+h1{font-size:17px;margin:0 0 12px}
+.search{width:100%;box-sizing:border-box;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--fg);font:inherit}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0}
+.chip{flex:none;border:1px solid var(--line);background:var(--chip);color:var(--fg);padding:7px 13px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}
+.chip.on{background:var(--gold);border-color:var(--gold);color:#111;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;text-align:left;padding:0;color:inherit;font:inherit}
+.card img,.side img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--chip)}
+.meta{padding:9px 11px;display:grid;gap:3px}.name{font-weight:600;font-size:13px}.sub{color:var(--muted);font-size:12px}
+.empty{color:var(--muted);padding:30px 0}
+.side{position:fixed;inset:0 0 0 auto;width:min(380px,100%);background:var(--panel);border-left:1px solid var(--line);transform:translateX(100%);transition:transform .25s;overflow:auto;z-index:5}
+.side.open{transform:none}.sbody{padding:16px;display:grid;gap:10px}
+.btn{background:var(--gold);color:#111;border:0;border-radius:10px;padding:12px;font:inherit;font-weight:700;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.close{position:absolute;top:10px;right:10px;background:var(--chip);border:0;color:var(--fg);width:32px;height:32px;border-radius:50%;font-size:16px}
+</style></head><body>
+<div class="wrap">
+  <h1>Black Dragon · модели</h1>
+  <input id="q" class="search" type="search" placeholder="Поиск: диван букле, кресло, лампа…">
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="grid"><div class="empty">Загрузка…</div></div>
+</div>
+<aside class="side" id="side">
+  <button class="close" id="close">✕</button>
+  <img id="simg" alt="">
+  <div class="sbody">
+    <b id="sname"></b><div class="sub" id="sdesc"></div><div class="sub" id="stopic"></div>
+    <button class="btn" id="get">Получить модель в чат</button>
+    <button class="btn ghost" id="post">Открыть пост в группе</button>
+  </div>
+</aside>
+<script>
+const BOT='Draco3DLibraryBot', GROUP='3774819337';
+const tg=window.Telegram&&Telegram.WebApp; if(tg){tg.ready();tg.expand()}
+let items=[],cur='Все',sel=null; const $=i=>document.getElementById(i);
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function link(u){ if(tg&&tg.openTelegramLink) tg.openTelegramLink(u); else location.href=u }
+function chips(){const t=['Все',...new Set(items.map(i=>i.topic))];$('chips').innerHTML=t.map(x=>`<button class="chip${x===cur?' on':''}" data-t="${esc(x)}">${esc(x)}</button>`).join('')}
+function grid(){const q=$('q').value.trim().toLowerCase();
+ const l=items.filter(i=>(cur==='Все'||i.topic===cur)&&(!q||(i.caption+' '+i.topic).toLowerCase().includes(q)));
+ $('grid').innerHTML=l.length?l.map(i=>`<button class="card" data-id="${esc(i.id)}"><img loading="lazy" src="photos/${esc(i.id)}.jpg" alt=""><div class="meta"><div class="name">${esc(i.caption.split('\n')[0])}</div><div class="sub">${esc(i.topic)}</div></div></button>`).join(''):'<div class="empty">Пока ничего нет. Перешлите посты боту.</div>'}
+$('chips').onclick=e=>{const t=e.target.dataset.t;if(t){cur=t;chips();grid()}};
+$('q').oninput=grid;
+$('grid').onclick=e=>{const c=e.target.closest('.card');if(!c)return;sel=items.find(i=>i.id===c.dataset.id);
+ $('simg').src='photos/'+sel.id+'.jpg';$('sname').textContent=sel.caption.split('\n')[0];$('sdesc').textContent=sel.caption.split('\n').slice(1).join(' ');$('stopic').textContent='Тема: '+sel.topic;$('side').classList.add('open')};
+$('close').onclick=()=>$('side').classList.remove('open');
+$('get').onclick=()=>link(`https://t.me/${BOT}?start=get_${sel.id}`);
+$('post').onclick=()=>link(`https://t.me/c/${GROUP}/${sel.msg}`);
+fetch('catalog.json?'+Date.now()).then(r=>r.json()).then(d=>{items=d.reverse();chips();grid()}).catch(()=>{$('grid').innerHTML='<div class="empty">Каталог не загрузился, обновите страницу.</div>'});
+</script></body></html>
