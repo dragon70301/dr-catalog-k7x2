@@ -568,5 +568,11 @@
     "caption": "Kitchen with Island | Кухня с островом",
     "topic": "Kitchens | Кухни",
     "msg": 223
+  },
+  {
+    "id": "max3Dsmaxmodel-21",
+    "caption": "Switch Set | Набор выключателей",
+    "topic": "Switches | Выключатели",
+    "msg": 226
   }
 ]
