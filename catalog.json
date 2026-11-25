@@ -370,5 +370,11 @@
     "caption": "Interior Doors | Межкомнатные двери",
     "topic": "Doors | Двери",
     "msg": 152
+  },
+  {
+    "id": "max3Dsmaxmodel-164",
+    "caption": "Radiator Charleston | Радиатор Charleston",
+    "topic": "Radiators | Радиаторы",
+    "msg": 155
   }
 ]
