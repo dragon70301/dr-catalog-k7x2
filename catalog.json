@@ -8,7 +8,13 @@
   {
     "id": "max3Dsmaxmodel-409",
     "caption": "Armchair Ibex | Кресло Ibex",
-    "topic": "Кресла",
+    "topic": "Armchairs | Кресла",
     "msg": 10
+  },
+  {
+    "id": "max3Dsmaxmodel-413",
+    "caption": "TV Wall 13 | ТВ-зона 13",
+    "topic": "TV Walls | ТВ-зоны",
+    "msg": 14
   }
 ]
