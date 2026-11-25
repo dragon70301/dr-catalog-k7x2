@@ -532,5 +532,11 @@
     "caption": "Kitchen 2 | Кухня 2",
     "topic": "Kitchens | Кухни",
     "msg": 211
+  },
+  {
+    "id": "max3Dsmaxmodel-120",
+    "caption": "Shower Cabin Niagara Nova | Душевая кабина Niagara Nova",
+    "topic": "Bathrooms | Ванные комнаты",
+    "msg": 213
   }
 ]
