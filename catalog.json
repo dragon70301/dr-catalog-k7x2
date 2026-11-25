@@ -508,5 +508,11 @@
     "caption": "Clothes 03 | Одежда 03",
     "topic": "Mannequins | Манекены",
     "msg": 203
+  },
+  {
+    "id": "max3Dsmaxmodel-111",
+    "caption": "Floor Faucet ORTIS | Напольный смеситель ORTIS",
+    "topic": "Faucets | Смесители",
+    "msg": 205
   }
 ]
