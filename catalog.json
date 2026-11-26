@@ -880,5 +880,11 @@
     "caption": "Electrical Panel Kaedra | Электрощит Kaedra",
     "topic": "Electrical Panels | Электрощиты",
     "msg": 331
+  },
+  {
+    "id": "Free3dmax_models-424",
+    "caption": "Parquet Coswick Versailles | Паркет Coswick Versailles",
+    "topic": "Floors | Полы",
+    "msg": 333
   }
 ]
