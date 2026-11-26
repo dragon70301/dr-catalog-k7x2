@@ -5500,5 +5500,11 @@
     "caption": "Ground Stones Material | Материал «Каменная брусчатка»",
     "topic": "Materials | Материалы",
     "msg": 1913
+  },
+  {
+    "id": "FREE_3DSMAX_MODELS-165",
+    "caption": "Swimming Pool Water Material | Материал «Вода в бассейне»",
+    "topic": "Materials | Материалы",
+    "msg": 1915
   }
 ]
