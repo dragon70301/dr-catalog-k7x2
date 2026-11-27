@@ -15160,5 +15160,11 @@
     "caption": "Bed MCQueen Night | Кровать MCQueen Night",
     "topic": "Beds | Кровати",
     "msg": 5300
+  },
+  {
+    "id": "model_3dsmax-2016",
+    "caption": "Chest Yoroi | Комод Yoroi",
+    "topic": "Cabinets | Шкафы",
+    "msg": 5302
   }
 ]
