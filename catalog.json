@@ -8848,5 +8848,11 @@
     "caption": "Tensile Tent Design Type 2 | Тентовая конструкция, тип 2",
     "topic": "Buildings | Здания",
     "msg": 3166
+  },
+  {
+    "id": "FREE_3DSMAX_MODELS-4300",
+    "caption": "Batch Export/Import Script (Jos Balcaen) | Скрипт пакетного экспорта/импорта (Jos Balcaen)",
+    "topic": "Plugins | Плагины",
+    "msg": 3168
   }
 ]
