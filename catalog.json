@@ -11644,5 +11644,11 @@
     "caption": "Road Elements Set | Набор элементов дороги",
     "topic": "Roads | Дороги",
     "msg": 4118
+  },
+  {
+    "id": "model_3dsmax-156",
+    "caption": "Utility Poles | Опоры ЛЭП",
+    "topic": "Roads | Дороги",
+    "msg": 4120
   }
 ]
