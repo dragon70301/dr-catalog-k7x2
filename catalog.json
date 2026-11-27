@@ -11716,5 +11716,11 @@
     "caption": "Staircase Curved Dark Wood | Лестница с поворотом, тёмное дерево",
     "topic": "Stairs | Лестницы",
     "msg": 4149
+  },
+  {
+    "id": "model_3dsmax-65",
+    "caption": "Street Light Hess | Уличный светильник Hess",
+    "topic": "Lighting | Освещение",
+    "msg": 4151
   }
 ]
