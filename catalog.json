@@ -12088,5 +12088,11 @@
     "caption": "Bed RH Lawson Shelter | Кровать RH Lawson Shelter",
     "topic": "Beds | Кровати",
     "msg": 4276
+  },
+  {
+    "id": "model_3dsmax-376",
+    "caption": "Upholstered Bed | Кровать с мягким изголовьем",
+    "topic": "Beds | Кровати",
+    "msg": 4278
   }
 ]
