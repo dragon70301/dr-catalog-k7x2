@@ -12154,5 +12154,11 @@
     "caption": "Brick BBQ Fireplace | Кирпичная барбекю-зона с печью",
     "topic": "Kitchens | Кухни",
     "msg": 4298
+  },
+  {
+    "id": "model_3dsmax-417",
+    "caption": "Gazebo with Fireplace | Беседка с камином",
+    "topic": "Buildings | Здания",
+    "msg": 4300
   }
 ]
