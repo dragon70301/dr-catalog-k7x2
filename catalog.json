@@ -11656,5 +11656,11 @@
     "caption": "Shipping Container 20ft Green | Контейнер 20 футов, зелёный",
     "topic": "Containers | Контейнеры",
     "msg": 4123
+  },
+  {
+    "id": "model_3dsmax-160",
+    "caption": "Shipping Container 40ft Black | Контейнер 40 футов, чёрный",
+    "topic": "Containers | Контейнеры",
+    "msg": 4131
   }
 ]
