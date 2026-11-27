@@ -11710,5 +11710,11 @@
     "caption": "Straight Staircase White | Прямая лестница белая",
     "topic": "Stairs | Лестницы",
     "msg": 4147
+  },
+  {
+    "id": "model_3dsmax-185",
+    "caption": "Staircase Curved Dark Wood | Лестница с поворотом, тёмное дерево",
+    "topic": "Stairs | Лестницы",
+    "msg": 4149
   }
 ]
