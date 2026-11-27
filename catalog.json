@@ -15286,5 +15286,11 @@
     "caption": "Glass Block Wall 02 | Стеклоблочная стена 02",
     "topic": "Partitions | Перегородки",
     "msg": 5343
+  },
+  {
+    "id": "model_3dsmax-2100",
+    "caption": "Ironing System Bork i810 | Гладильная система Bork i810",
+    "topic": "Ironing Boards | Гладильные доски",
+    "msg": 5345
   }
 ]
