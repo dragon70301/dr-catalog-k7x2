@@ -11740,5 +11740,11 @@
     "caption": "Modern Door 1 | Современная дверь 1",
     "topic": "Doors | Двери",
     "msg": 4157
+  },
+  {
+    "id": "model_3dsmax-73",
+    "caption": "Flat Door | Гладкая дверь",
+    "topic": "Doors | Двери",
+    "msg": 4159
   }
 ]
