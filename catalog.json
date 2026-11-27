@@ -11530,5 +11530,11 @@
     "caption": "Sofa | Диван",
     "topic": "Sofas | Диваны",
     "msg": 4078
+  },
+  {
+    "id": "model_3dsmax-63",
+    "caption": "Track Spotlight | Трековый светильник",
+    "topic": "Lighting | Освещение",
+    "msg": 4080
   }
 ]
