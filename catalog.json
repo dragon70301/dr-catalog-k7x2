@@ -17476,5 +17476,11 @@
     "caption": "TV Wall 63 | ТВ-стена 63",
     "topic": "TV Walls | ТВ-зоны",
     "msg": 6090
+  },
+  {
+    "id": "max3Dsmaxmodel-88",
+    "caption": "Marble Slabs LaFaenza | Мраморные плиты LaFaenza",
+    "topic": "Materials | Материалы",
+    "msg": 6092
   }
 ]
