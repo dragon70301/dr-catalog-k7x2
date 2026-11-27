@@ -12040,5 +12040,11 @@
     "caption": "Gate Darvoza | Ворота Darvoza",
     "topic": "Fences | Заборы",
     "msg": 4257
+  },
+  {
+    "id": "model_3dsmax-351",
+    "caption": "Leather Duffle Bag | Кожаная дорожная сумка",
+    "topic": "Bags | Сумки",
+    "msg": 4260
   }
 ]
