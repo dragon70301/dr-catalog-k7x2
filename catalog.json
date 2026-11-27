@@ -11602,5 +11602,11 @@
     "caption": "Balusters Set | Набор балясин",
     "topic": "Stairs | Лестницы",
     "msg": 4103
+  },
+  {
+    "id": "model_3dsmax-127",
+    "caption": "Ornate Balusters | Резные балясины",
+    "topic": "Stairs | Лестницы",
+    "msg": 4105
   }
 ]
