@@ -12082,5 +12082,11 @@
     "caption": "Single Bed | Односпальная кровать",
     "topic": "Beds | Кровати",
     "msg": 4274
+  },
+  {
+    "id": "model_3dsmax-374",
+    "caption": "Bed RH Lawson Shelter | Кровать RH Lawson Shelter",
+    "topic": "Beds | Кровати",
+    "msg": 4276
   }
 ]
