@@ -12400,5 +12400,11 @@
     "caption": "Bed Whishes | Кровать Whishes",
     "topic": "Beds | Кровати",
     "msg": 4380
+  },
+  {
+    "id": "model_3dsmax-560",
+    "caption": "Sofa Rugiano | Диван Rugiano",
+    "topic": "Sofas | Диваны",
+    "msg": 4382
   }
 ]
