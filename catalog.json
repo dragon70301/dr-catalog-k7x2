@@ -14380,5 +14380,11 @@
     "caption": "Door VOSTOK | Дверь VOSTOK",
     "topic": "Doors | Двери",
     "msg": 5040
+  },
+  {
+    "id": "model_3dsmax-1646",
+    "caption": "Ligne Roset Dining Set | Стол и стулья Ligne Roset",
+    "topic": "Tables | Столы",
+    "msg": 5042
   }
 ]
