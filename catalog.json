@@ -11650,5 +11650,11 @@
     "caption": "Utility Poles | Опоры ЛЭП",
     "topic": "Roads | Дороги",
     "msg": 4120
+  },
+  {
+    "id": "model_3dsmax-158",
+    "caption": "Shipping Container 20ft Green | Контейнер 20 футов, зелёный",
+    "topic": "Containers | Контейнеры",
+    "msg": 4123
   }
 ]
