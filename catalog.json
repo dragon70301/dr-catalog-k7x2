@@ -12160,5 +12160,11 @@
     "caption": "Gazebo with Fireplace | Беседка с камином",
     "topic": "Buildings | Здания",
     "msg": 4300
+  },
+  {
+    "id": "model_3dsmax-419",
+    "caption": "iMac with Keyboard and Mouse | iMac с клавиатурой и мышью",
+    "topic": "Electronics | Электроника",
+    "msg": 4302
   }
 ]
