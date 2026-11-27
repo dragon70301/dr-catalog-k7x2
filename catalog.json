@@ -11590,5 +11590,11 @@
     "caption": "Pilaster P-302 Dikart | Пилястра П-302 Дикарт",
     "topic": "Decor | Декор",
     "msg": 4098
+  },
+  {
+    "id": "model_3dsmax-123",
+    "caption": "Ionic Pilaster | Ионический пилястр",
+    "topic": "Decor | Декор",
+    "msg": 4100
   }
 ]
