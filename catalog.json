@@ -11512,5 +11512,11 @@
     "caption": "Bed Versal 41 | Кровать Версаль 41",
     "topic": "Beds | Кровати",
     "msg": 4072
+  },
+  {
+    "id": "model_3dsmax-50",
+    "caption": "Bed Flow | Кровать Flow",
+    "topic": "Beds | Кровати",
+    "msg": 4074
   }
 ]
