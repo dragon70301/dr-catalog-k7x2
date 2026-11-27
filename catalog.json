@@ -12034,5 +12034,11 @@
     "caption": "Carved Door | Резная дверь",
     "topic": "Doors | Двери",
     "msg": 4255
+  },
+  {
+    "id": "model_3dsmax-349",
+    "caption": "Gate Darvoza | Ворота Darvoza",
+    "topic": "Fences | Заборы",
+    "msg": 4257
   }
 ]
