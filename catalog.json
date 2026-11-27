@@ -11638,5 +11638,11 @@
     "caption": "Ornate Metal Canopy | Кованый навес",
     "topic": "Buildings | Здания",
     "msg": 4115
+  },
+  {
+    "id": "model_3dsmax-154",
+    "caption": "Road Elements Set | Набор элементов дороги",
+    "topic": "Roads | Дороги",
+    "msg": 4118
   }
 ]
