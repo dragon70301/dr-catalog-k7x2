@@ -14980,5 +14980,11 @@
     "caption": "F&D Door | Дверь F&D",
     "topic": "Doors | Двери",
     "msg": 5240
+  },
+  {
+    "id": "model_3dsmax-1960",
+    "caption": "Exclusive Steel Doors | Стальные двери Exclusive Steel",
+    "topic": "Doors | Двери",
+    "msg": 5242
   }
 ]
