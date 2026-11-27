@@ -14668,5 +14668,11 @@
     "caption": "Forged Staircase | Лестница ковка",
     "topic": "Stairs | Лестницы",
     "msg": 5136
+  },
+  {
+    "id": "model_3dsmax-1815",
+    "caption": "Metal Wall Texture | Текстура металла на стене",
+    "topic": "Materials | Материалы",
+    "msg": 5138
   }
 ]
