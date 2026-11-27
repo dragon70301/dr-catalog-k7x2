@@ -12028,5 +12028,11 @@
     "caption": "Ornate Gate | Резная калитка",
     "topic": "Doors | Двери",
     "msg": 4253
+  },
+  {
+    "id": "model_3dsmax-347",
+    "caption": "Carved Door | Резная дверь",
+    "topic": "Doors | Двери",
+    "msg": 4255
   }
 ]
