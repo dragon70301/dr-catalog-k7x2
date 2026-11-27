@@ -12448,5 +12448,11 @@
     "caption": "Wall Panel with Lights | Настенная панель с подсветкой",
     "topic": "Wall Decor | Декор стен",
     "msg": 4396
+  },
+  {
+    "id": "model_3dsmax-600",
+    "caption": "TV Wall Set | ТВ-стена с декором",
+    "topic": "TV Walls | ТВ-зоны",
+    "msg": 4398
   }
 ]
