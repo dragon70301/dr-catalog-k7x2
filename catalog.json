@@ -11566,5 +11566,11 @@
     "caption": "Classic Column Stone | Классическая колонна, камень",
     "topic": "Decor | Декор",
     "msg": 4090
+  },
+  {
+    "id": "model_3dsmax-113",
+    "caption": "Classic Column White | Классическая колонна, белая",
+    "topic": "Decor | Декор",
+    "msg": 4092
   }
 ]
