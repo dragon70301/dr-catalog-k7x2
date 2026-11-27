@@ -14986,5 +14986,11 @@
     "caption": "Exclusive Steel Doors | Стальные двери Exclusive Steel",
     "topic": "Doors | Двери",
     "msg": 5242
+  },
+  {
+    "id": "model_3dsmax-1962",
+    "caption": "Polished Brass Sputnik Chandelier | Люстра Sputnik из полированной латуни",
+    "topic": "Lighting | Освещение",
+    "msg": 5244
   }
 ]
