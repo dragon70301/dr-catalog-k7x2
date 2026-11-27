@@ -11746,5 +11746,11 @@
     "caption": "Flat Door | Гладкая дверь",
     "topic": "Doors | Двери",
     "msg": 4159
+  },
+  {
+    "id": "model_3dsmax-75",
+    "caption": "Frameless Glass Door | Безрамная стеклянная дверь",
+    "topic": "Doors | Двери",
+    "msg": 4161
   }
 ]
