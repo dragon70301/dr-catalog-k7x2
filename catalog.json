@@ -11584,5 +11584,11 @@
     "caption": "Column Set | Набор колонн",
     "topic": "Decor | Декор",
     "msg": 4096
+  },
+  {
+    "id": "model_3dsmax-121",
+    "caption": "Pilaster P-302 Dikart | Пилястра П-302 Дикарт",
+    "topic": "Decor | Декор",
+    "msg": 4098
   }
 ]
