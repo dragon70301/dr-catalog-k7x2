@@ -16822,5 +16822,11 @@
     "caption": "Shutters Door | Дверь-шторы",
     "topic": "Doors | Двери",
     "msg": 5872
+  },
+  {
+    "id": "model_3dsmax-3080",
+    "caption": "Chair Seda | Стул Seda",
+    "topic": "Chairs | Стулья",
+    "msg": 5874
   }
 ]
