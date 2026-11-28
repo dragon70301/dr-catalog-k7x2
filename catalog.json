@@ -18430,5 +18430,11 @@
     "caption": "Gantry Crane | Портальный кран",
     "topic": "Cranes | Краны",
     "msg": 7560
+  },
+  {
+    "id": "model_3dsmax-3522",
+    "caption": "RTG Gantry Crane | Портальный кран RTG",
+    "topic": "Cranes | Краны",
+    "msg": 7563
   }
 ]
