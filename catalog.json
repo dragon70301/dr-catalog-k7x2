@@ -17944,5 +17944,11 @@
     "caption": "Asphalt Road with Puddles | Асфальт с лужами",
     "topic": "Roads | Дороги",
     "msg": 6255
+  },
+  {
+    "id": "model_3dsmax-3192",
+    "caption": "Paving Tile 7 | Брусчатка тротуарная 7",
+    "topic": "Materials | Материалы",
+    "msg": 6257
   }
 ]
